@@ -1,0 +1,16 @@
+# .gitignore 文件内容示例
+
+# 排除虚拟环境文件夹
+**/venv/
+/venv/
+# 排除其他不必要的文件或目录
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+**/model/
+**/.idea/
+**/runs/
+
